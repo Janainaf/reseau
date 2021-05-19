@@ -1,0 +1,85 @@
+body {
+  margin: 800;
+  padding: 800;
+  font-family: "Work Sans", sans-serif;
+  background: rgb(181, 151, 151);
+}
+
+.post-container {
+  background: rgb(192, 183, 183);
+  color: #5e3b3b;
+  padding: 50px;
+  width: 50%;
+  margin: 40px auto;
+  box-shadow: 0 5px 15px 0 rgba(165, 198, 225, 0.12);
+  font-family: "Work Sans", sans-serif;
+}
+
+.post_heading {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  color: #5e3b3b;
+}
+
+.center {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  margin-top: 20px;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  margin-top: 5px;
+  color: #5e3b3b;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 4px;
+  border: none;
+  font-size: 15px;
+}
+.form button {
+  background: #5e3b3b;
+  margin-top: 20px;
+  padding: 15px 20px;
+  text-align: center;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 4px;
+  border: none;
+  font-size: 20px;
+}
+
+.form input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 44px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #dbe2e8;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #636363;
+  box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+  outline: none;
+  width: 80%;
+}
+.form textarea {
+  width: 80%;
+  max-width: 80%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  border: 1px solid #dbe2e8;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #636363;
+  font-family: "Work Sans,", sans-serif;
+  box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+  outline: none;
+}
