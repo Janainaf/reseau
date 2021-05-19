@@ -1,9 +1,10 @@
 import React, { Fragment, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { userSelector, fetchUserBytoken, clearState } from "./UserSlice";
+import { userSelector, fetchUserBytoken, clearState } from "./User/UserSlice";
 import Loader from "react-loader-spinner";
 import { useHistory } from "react-router-dom";
-import Post from "./Post";
+import PostForm from "./PostForm";
+import AllPost from "./AllPost";
 
 const Home = () => {
   const history = useHistory();
@@ -42,7 +43,8 @@ const Home = () => {
         )}
       </div>
 
-      <Post />
+      <PostForm />
+      <AllPost />
     </div>
   );
 };
